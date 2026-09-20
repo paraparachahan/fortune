@@ -8,4 +8,4 @@ COPY fortunes/developer /usr/share/games/fortunes/developer
 
 RUN /usr/bin/strfile /usr/share/games/fortunes/developer
 
-CMD ["/usr/game/fortune", "/usr/share/games/fortunes/developer"]
+CMD ["/usr/games/fortune", "/usr/share/games/fortunes/developer"]
