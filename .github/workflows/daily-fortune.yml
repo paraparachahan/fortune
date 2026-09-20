@@ -2,6 +2,9 @@ name: Daily Fortune
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "10 7 * * *"
+      timezone: "Asia/Tokyo"
 
 permissions:
   contents: write
