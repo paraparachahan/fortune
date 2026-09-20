@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Run fortune
-        run: docker run --rm sena2525/daily-fortune1.0
+        run: docker run --rm sena2525/daily-fortune:1.0
