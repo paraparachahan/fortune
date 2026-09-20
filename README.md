@@ -5,5 +5,5 @@
 ## 今日のひとこと
 
 <!-- fortune:start -->
-今日のラッキーコマンドは git status。
+エラー文は、解決への最初のヒント。
 <!-- fortune:end -->
