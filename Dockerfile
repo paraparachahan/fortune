@@ -4,8 +4,8 @@ RUN apt-get update \
 && apt-get install -y --no-install-recommends fortune-mod \
 && rm -rf /var/lib/apt/lists/*
 
-COPY fortunes/developer /usr/share/games/fortunes/developer
+COPY fortunes/daily /usr/share/games/fortunes/daily
 
-RUN /usr/bin/strfile /usr/share/games/fortunes/developer
+RUN /usr/bin/strfile /usr/share/games/fortunes/daily
 
-CMD ["/usr/games/fortune", "/usr/share/games/fortunes/developer"]
+CMD ["/usr/games/fortune", "/usr/share/games/fortunes/daily"]
