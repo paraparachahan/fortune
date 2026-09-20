@@ -3,6 +3,9 @@ name: Daily Fortune
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   show-fortune:
     runs-on: ubuntu-24.04-arm
