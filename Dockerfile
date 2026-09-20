@@ -7,3 +7,5 @@ RUN apt-get update
 COPY fortunes/developer /usr/share/games/fortunes/developer
 
 RUN /usr/games/strfile /usr/share/games/fortunes/developer
+
+CMD ["/usr/game/fortune", "/usr/share/games/fortunes/developer"]
