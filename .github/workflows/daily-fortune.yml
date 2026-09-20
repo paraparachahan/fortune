@@ -1,0 +1,12 @@
+name: Daily Fortune
+
+on:
+  workflow_dispatch:
+
+jobs:
+  show-fortune:
+    runs-on: ubuntu-24.04-arm
+
+    steps:
+      - name: Run fortune
+        run: docker run --rm sena2525/daily-fortune1.0
