@@ -20,7 +20,7 @@ jobs:
           python-version: "3.13"
 
       - name: Run fortune
-        run: docker run --rm sena2525/daily-fortune:1.0
+        run: docker run --rm sena2525/daily-fortune:1.0 > fortune.tst
 
       - name: Update README
         run: python scripts/update_fortune.py
