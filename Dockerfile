@@ -5,3 +5,5 @@ RUN apt-get update
 && rm -rf /var/lib/apt/lists/*
 
 COPY fortunes/developer /usr/share/games/fortunes/developer
+
+RUN /usr/games/strfile /usr/share/games/fortunes/developer
