@@ -1,6 +1,11 @@
 # Daily Fortune
 
-自作の文章集から、ランダムにメッセージを表示するプロジェクトです。
+Debianの配布パッケージに含まれる次の文章集から、ランダムにメッセージを表示するプロジェクトです。
+
+- `fortunes`・`computers`
+- `linux`・`linuxcookie`・`debian`・`perl`
+- `science`・`wisdom`・`work`・`humorists`
+- `literature`・`riddles`・`ascii-art`・`startrek`
 
 ## 今日のひとこと
 
