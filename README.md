@@ -5,6 +5,5 @@
 ## 今日のひとこと
 
 <!-- fortune:start -->
-動いた理由を説明できたら、
-それは今日の成長。
+Don't read everything you believe.
 <!-- fortune:end -->
